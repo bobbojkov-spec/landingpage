@@ -14,7 +14,7 @@ export default function WhyUs() {
         Yourself required no at thoughts delicate landlord it be.
       </p>
       <Image
-        src="/images/icon_natural.png"
+        src="/landingpage/images/icon_natural.png"
         alt="Natural"
         width={70}
         height={70}
@@ -28,7 +28,7 @@ export default function WhyUs() {
         Yourself required no at thoughts delicate landlord it be.
       </p>
       <Image
-        src="/images/icon_nosideeffect.png"
+        src="/landingpage/images/icon_nosideeffect.png"
         alt="No Side effect"
         width={70}
         height={70}
@@ -42,7 +42,7 @@ export default function WhyUs() {
         Yourself required no at thoughts delicate landlord it be.
       </p>
       <Image
-        src="/images/icon_organic.png"
+        src="/landingpage/images/icon_organic.png"
         alt="100% Organic"
         width={58}
         height={70}

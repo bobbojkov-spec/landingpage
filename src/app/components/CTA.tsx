@@ -2,10 +2,10 @@ import Image from 'next/image';
 
 export default function CTA() {
   return (
-    <div className="relative w-[1240px] h-[491px] cta-offset" style={{ marginTop: '255px' }}>
+    <div className="relative w-[1240px] h-[491px] cta-offset" style={{ marginTop: '155px' }}>
       <div className="absolute left-[0px] top-[0px] w-[1240px] h-[491px] bg-[#ffffff]"></div>
       <Image
-        src="/images/newsletter.png"
+        src="/landingpage/images/newsletter.png"
         alt="newsletter"
         width={589}
         height={497}

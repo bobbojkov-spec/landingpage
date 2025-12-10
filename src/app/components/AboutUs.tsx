@@ -4,7 +4,7 @@ export default function AboutUs() {
   return (
     <div className="relative w-[1220px] h-[579px] bg-[#ffffff] about-us-offset" style={{ marginTop: '120px' }}>
       <Image
-        src="/images/product_about.png"
+        src="/landingpage/images/product_about.png"
         alt="image 2"
         width={581}
         height={529}
@@ -12,7 +12,7 @@ export default function AboutUs() {
         unoptimized
       />
       <Image
-        src="/images/dots.png"
+        src="/landingpage/images/dots.png"
         alt="dots"
         width={105}
         height={105}

@@ -1,6 +1,6 @@
 export default function CompaniesLogos() {
   return (
-    <div className="relative w-[1440px] h-[131px]" style={{ marginTop: '95px', marginBottom: '-80px' }}>
+    <div className="relative w-[1440px] h-[131px]" style={{ marginTop: '25px', marginBottom: '-80px' }}>
       <div className="absolute left-[0px] top-[0px] w-[1440px] h-[131px] bg-[#fafafa]"></div>
       <div className="absolute left-[660px] top-[6px] w-[120px] h-[120px] bg-gray-200 border border-gray-300 flex items-center justify-center">
         <span className="text-gray-400 text-xs">Logo</span>

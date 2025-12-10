@@ -8,7 +8,7 @@ export default function Products() {
         Our Products
       </h1>
       <Image
-        src="/images/product_cream.png"
+        src="/landingpage/images/product_cream.png"
         alt="Cream"
         width={180}
         height={180}
@@ -19,7 +19,7 @@ export default function Products() {
         Cream
       </h2>
       <Image
-        src="/images/product_serum.png"
+        src="/landingpage/images/product_serum.png"
         alt="Serum"
         width={180}
         height={180}
@@ -30,7 +30,7 @@ export default function Products() {
         Serum
       </h2>
       <Image
-        src="/images/product_lotion.png"
+        src="/landingpage/images/product_lotion.png"
         alt="Lotion"
         width={180}
         height={180}
@@ -41,7 +41,7 @@ export default function Products() {
         Lotion
       </h2>
       <Image
-        src="/images/product_sunscreen.png"
+        src="/landingpage/images/product_sunscreen.png"
         alt="Sunscreen"
         width={180}
         height={180}
@@ -52,7 +52,7 @@ export default function Products() {
         Sunscreen
       </h2>
       <Image
-        src="/images/product_coconutoil.png"
+        src="/landingpage/images/product_coconutoil.png"
         alt="Coconut Oil"
         width={180}
         height={180}

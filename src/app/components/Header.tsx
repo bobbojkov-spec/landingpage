@@ -5,7 +5,7 @@ export default function Header() {
     <div className="relative w-[1440px] h-[990px] overflow-visible">
       <div className="absolute left-[0px] top-[0px] w-[1440px] h-[990px] bg-[#ddc0ae]"></div>
       <Image
-        src="/images/header_image.png"
+        src="/landingpage/images/header_image.png"
         alt="22865904_22 1"
         width={1092}
         height={728}
@@ -13,7 +13,7 @@ export default function Header() {
         unoptimized
       />
       <Image
-        src="/images/headerimage_blur.png"
+        src="/landingpage/images/headerimage_blur.png"
         alt="header blur"
         width={1082}
         height={363}
@@ -74,7 +74,7 @@ export default function Header() {
         Team
       </p>
       <Image
-        src="/images/icon_search.png"
+        src="/landingpage/images/icon_search.png"
         alt="search"
         width={24}
         height={24}
@@ -82,7 +82,7 @@ export default function Header() {
         unoptimized
       />
       <Image
-        src="/images/icon_basket.png"
+        src="/landingpage/images/icon_basket.png"
         alt="basket"
         width={24}
         height={24}
@@ -90,7 +90,7 @@ export default function Header() {
         unoptimized
       />
       <Image
-        src="/images/icon_person.png"
+        src="/landingpage/images/icon_person.png"
         alt="person"
         width={24}
         height={24}

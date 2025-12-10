@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <div className="relative w-[1440px] h-[440px]" style={{ marginTop: '75px' }}>
+    <div className="relative w-[1440px] h-[440px]" style={{ marginTop: '-5px' }}>
       <div className="absolute left-[0px] top-[0px] w-[1440px] h-[440px]" style={{ background: 'linear-gradient(180deg, rgba(255, 242, 234, 0) 0%, #FFF2EA 56.3%)' }}></div>
       <div className="absolute left-[1078px] top-[220px] w-[226px] h-[110px]"></div>
       <div className="absolute left-[1230px] top-[287px] w-[70px] h-[40px] bg-[#a1603b] z-10"></div>
@@ -21,7 +21,7 @@ export default function Footer() {
         +1 789 123456
       </p>
       <Image
-        src="/images/base_icon_tel.png"
+        src="/landingpage/images/base_icon_tel.png"
         alt="Phone"
         width={24}
         height={24}
@@ -29,7 +29,7 @@ export default function Footer() {
         unoptimized
       />
       <Image
-        src="/images/base_icon_pin.png"
+        src="/landingpage/images/base_icon_pin.png"
         alt="Location"
         width={24}
         height={24}
@@ -45,7 +45,7 @@ export default function Footer() {
         hello@dangila.co
       </p>
       <Image
-        src="/images/base_icon_email.png"
+        src="/landingpage/images/base_icon_email.png"
         alt="Email"
         width={24}
         height={24}
@@ -69,7 +69,7 @@ export default function Footer() {
         Best Seller
       </p>
       <Image
-        src="/images/base_socialicons.png"
+        src="/landingpage/images/base_socialicons.png"
         alt="Social Media Icons"
         width={100}
         height={20}
