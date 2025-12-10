@@ -14,6 +14,8 @@ module.exports = {
       fontFamily: {
         circular: ["var(--font-circular)", "sans-serif"],
         productsans: ["var(--font-productsans)", "sans-serif"],
+        sharpsans: ["var(--font-sharpsans)", "sans-serif"],
+        montserrat: ["var(--font-montserrat)", "sans-serif"],
       },
 
       // -------------------

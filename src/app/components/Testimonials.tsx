@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 export default function Testimonials() {
   return (
-    <div className="relative w-[1440px] h-[530px]">
+    <div className="relative w-[1440px] h-[530px]" style={{ marginTop: '125px' }}>
       <div className="absolute left-[0px] top-[0px] w-[1440px] h-[530px] bg-[#ffffff]"></div>
-      <h1 className="absolute left-[525px] top-[0px] w-[389px] h-[71px] font-productsans text-[55px] leading-[71px] font-[760] text-[#a1603b]">
+      <h1 className="absolute left-[525px] top-[0px] w-[389px] h-[71px] font-sharpsans text-[55px] leading-[71px] font-[760] text-[#a1603b] text-center uppercase whitespace-nowrap tracking-[-1px]">
         Testimonials
       </h1>
       {/* Left testimonial card - 50% opacity overlay */}

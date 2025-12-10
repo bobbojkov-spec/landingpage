@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { circularStd, productSans } from "./fonts";
+import { circularStd, productSans, sharpSans, montserrat } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${circularStd.variable} ${productSans.variable}`}>
+    <html lang="en" className={`${circularStd.variable} ${productSans.variable} ${sharpSans.variable} ${montserrat.variable}`}>
       <body style={{ backgroundColor: '#ffffff', margin: 0, padding: 0 }}>{children}</body>
     </html>
   );

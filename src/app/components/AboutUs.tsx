@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function AboutUs() {
   return (
-    <div className="relative w-[1220px] h-[579px] bg-[#ffffff] about-us-offset">
+    <div className="relative w-[1220px] h-[579px] bg-[#ffffff] about-us-offset" style={{ marginTop: '120px' }}>
       <Image
         src="/images/product_about.png"
         alt="image 2"
@@ -11,7 +11,15 @@ export default function AboutUs() {
         className="absolute left-[589px] top-[50px] w-[581px] h-[529px]"
         unoptimized
       />
-      <h1 className="absolute left-[0px] top-[115px] w-[268px] h-[71px] font-productsans text-[55px] leading-[71px] font-[760] text-[#a1603b]">
+      <Image
+        src="/images/dots.png"
+        alt="dots"
+        width={105}
+        height={105}
+        className="absolute left-[1115px] top-[0px] w-[105px] h-[105px]"
+        unoptimized
+      />
+      <h1 className="absolute left-[0px] top-[115px] w-[268px] h-[71px] font-sharpsans text-[55px] leading-[71px] font-[760] text-[#a1603b] uppercase whitespace-nowrap tracking-[-1px]">
         About US
       </h1>
       <p className="absolute left-[0px] top-[216px] w-[500px] h-[180px] font-productsans text-[18px] leading-[30px] font-[400] text-[#4d4d4d]">
