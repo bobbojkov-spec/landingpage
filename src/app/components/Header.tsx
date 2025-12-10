@@ -20,7 +20,7 @@ export default function Header() {
         className="absolute left-[358px] top-[591px] w-[1082px] h-[363px]"
         unoptimized
       />
-      <h1 className="absolute left-[1335px] top-[314px] w-[352px] h-[703px] font-sharpsans text-[272px] leading-[352px] font-[500] text-[#383838] tracking-[-21.76px] opacity-[0.05]" style={{ transform: 'rotate(-90deg)', transformOrigin: 'center' }}>
+      <h1 className="absolute left-[1375px] top-[254px] w-[352px] h-[703px] font-sharpsans text-[272px] leading-[352px] font-[500] text-[#383838] tracking-[-21.76px] opacity-[0.05]" style={{ transform: 'rotate(-90deg)', transformOrigin: 'center' }}>
         faceoil
       </h1>
       <div className="absolute left-[0px] top-[816px] w-[78px] h-[174px] bg-[#383838]"></div>
