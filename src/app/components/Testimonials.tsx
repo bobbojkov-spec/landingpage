@@ -22,20 +22,20 @@ export default function Testimonials() {
       <Image
         src="/images/testimonial_1.png"
         alt="testimonilas image"
-        width={92}
-        height={132}
-        className="absolute left-[-511px] top-[171px] w-[92px] h-[132px] opacity-50"
+        width={152}
+        height={192}
+        className="absolute left-[-511px] top-[171px] w-[152px] h-[192px] opacity-50"
         unoptimized
       />
-      <div className="absolute left-[-511px] top-[171px] w-[92px] h-[132px] bg-[#ffffff] opacity-50" style={{ pointerEvents: 'none' }}></div>
+      <div className="absolute left-[-511px] top-[171px] w-[152px] h-[192px] bg-[#ffffff] opacity-50" style={{ pointerEvents: 'none' }}></div>
       
       {/* Middle testimonial image - fully visible */}
       <Image
         src="/images/testimonial_1.png"
         alt="testimonilas image"
-        width={92}
-        height={132}
-        className="absolute left-[342px] top-[171px] w-[92px] h-[132px]"
+        width={152}
+        height={192}
+        className="absolute left-[342px] top-[171px] w-[152px] h-[192px]"
         unoptimized
       />
       
@@ -43,27 +43,75 @@ export default function Testimonials() {
       <Image
         src="/images/testimonial_2.png"
         alt="testimonilas image"
-        width={92}
-        height={132}
-        className="absolute left-[1195px] top-[171px] w-[92px] h-[132px] opacity-50"
+        width={152}
+        height={192}
+        className="absolute left-[1195px] top-[171px] w-[152px] h-[192px] opacity-50"
         unoptimized
       />
-      <div className="absolute left-[1195px] top-[171px] w-[92px] h-[132px] bg-[#ffffff] opacity-50" style={{ pointerEvents: 'none' }}></div>
+      <div className="absolute left-[1195px] top-[171px] w-[152px] h-[192px] bg-[#ffffff] opacity-50" style={{ pointerEvents: 'none' }}></div>
       
-      {/* Left testimonial text - 50% opacity */}
+      {/* Left testimonial brackets and text - 50% opacity */}
+      <Image
+        src="/images/brackets_start.png"
+        alt="bracket start"
+        width={108}
+        height={71}
+        className="absolute left-[-385px] top-[310px] w-[108px] h-[71px] opacity-50"
+        unoptimized
+      />
       <p className="absolute left-[-385px] top-[310px] w-[583px] h-[123px] font-productsans text-[18px] leading-[30px] font-[400] text-[#4d4d4d] opacity-50">
         Yourself required no at thoughts delicate landlord it be. Branched dashwood do is whatever it. Farther be chapter at visited married in it pressed. By distrusts procuring be oh frankness existence believing instantly if. Doubtful on an juvenile as of servants insisted.
       </p>
+      <Image
+        src="/images/brackets_end.png"
+        alt="bracket end"
+        width={108}
+        height={71}
+        className="absolute left-[198px] top-[310px] w-[108px] h-[71px] opacity-50"
+        unoptimized
+      />
       
-      {/* Middle testimonial text - fully visible */}
+      {/* Middle testimonial brackets and text - fully visible */}
+      <Image
+        src="/images/brackets_start.png"
+        alt="bracket start"
+        width={108}
+        height={71}
+        className="absolute left-[468px] top-[310px] w-[108px] h-[71px]"
+        unoptimized
+      />
       <p className="absolute left-[468px] top-[310px] w-[583px] h-[123px] font-productsans text-[18px] leading-[30px] font-[400] text-[#4d4d4d]">
         Yourself required no at thoughts delicate landlord it be. Branched dashwood do is whatever it. Farther be chapter at visited married in it pressed. By distrusts procuring be oh frankness existence believing instantly if. Doubtful on an juvenile as of servants insisted.
       </p>
+      <Image
+        src="/images/brackets_end.png"
+        alt="bracket end"
+        width={108}
+        height={71}
+        className="absolute left-[1051px] top-[310px] w-[108px] h-[71px]"
+        unoptimized
+      />
       
-      {/* Right testimonial text - 50% opacity */}
+      {/* Right testimonial brackets and text - 50% opacity */}
+      <Image
+        src="/images/brackets_start.png"
+        alt="bracket start"
+        width={108}
+        height={71}
+        className="absolute left-[1321px] top-[310px] w-[108px] h-[71px] opacity-50"
+        unoptimized
+      />
       <p className="absolute left-[1321px] top-[310px] w-[583px] h-[123px] font-productsans text-[18px] leading-[30px] font-[400] text-[#4d4d4d] opacity-50">
         Yourself required no at thoughts delicate landlord it be. Branched dashwood do is whatever it. Farther be chapter at visited married in it pressed. By distrusts procuring be oh frankness existence believing instantly if. Doubtful on an juvenile as of servants insisted.
       </p>
+      <Image
+        src="/images/brackets_end.png"
+        alt="bracket end"
+        width={108}
+        height={71}
+        className="absolute left-[1904px] top-[310px] w-[108px] h-[71px] opacity-50"
+        unoptimized
+      />
     </div>
   );
 }
